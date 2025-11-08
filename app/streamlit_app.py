@@ -1,3 +1,7 @@
+import sys, os
+sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), '..')))
+
+
 # app/streamlit_app.py
 import streamlit as st
 import matplotlib.pyplot as plt
